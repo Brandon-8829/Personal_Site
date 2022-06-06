@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Page Title</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/skills.css">
+</head>
+<body>
+
+	<div id="navBar">
+		<div class="Logo">
+			<img src="img/Logo-trimmy.jpg">
+		</div>
+		<div class="media-container">
+			<div>
+				<img class="media-icon"src="img/LinkedIn-icon.png">
+			</div>
+		</div>
+		
+		<div class="container-fluid">
+		<!-- Content here -->
+			<div id="Menu-Button" class="Menu-Button">
+				<button id="M-Button" type="button" class="btn btn-dark" onclick="openNav()">Menu</button>
+				<div id="mySidenav" class="sidenav">
+					<p>Menu</p>
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<a href="javascript:ScrollToDiv('skills-outer');">Skills</a>
+					<a href="javascript:ScrollToDiv('about-container');">Projects</a>
+					<a href="javascript:ScrollToDiv('contact-container');">Contact</a>
+				</div>  			
+			</div>
+		</div>
+	</div>
+	
+	
+	<div id="welcome-text" class="text-center">
+		<h1>Brandon Harris</h1>		
+	</div>
+
+	<div class="page-break">
+
+		<!-- Skills Section -->
+		<div class="skills-outer" id="skills-outer">
+			
+			<h1>Skills</h1>
+			<div class="skills-container">
+				<div class="skill-card">
+					<!-- <img src="css.png" alt=""> -->
+					<p>HTML</p>
+				</div>
+				<div class="skill-card">
+					<!-- <object src="css.svg" alt=""></object> -->
+					<p>CSS</p>
+				</div>
+				<div class="skill-card">
+					<!-- <img src="css.png"> -->
+					<p>JS</p>
+				</div>
+				<div class="skill-card">
+					<!-- <img src="css.png" alt=""> -->
+					<p>React</p>
+				</div>
+				<div class="skill-card">
+					<!-- <object src="css.svg" alt=""></object> -->
+					<p>Node</p>
+				</div>
+				<div class="skill-card">
+					<!-- <img src="css.png"> -->
+					<p>C#</p>
+				</div>
+				<div class="skill-card">
+					<!-- <img src="css.png"> -->
+					<p>SQL</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- About Section -->
+		<div id="about-container">
+			<div id="about-inner">
+				<h1>Software Projects</h1>
+			</div>
+			<div class="project-card-container">	
+				<div class="project-card" id="about-card1">
+					<img class="project-image" src="img/landscape1.jpg"  alt="...">	
+								  
+					<p class="card-text">My Name is Brandon and welcome to my personal website! I have created this website to fulfill two personal goals: to have an ameture photography website and to have built my website from scratch. Here I will showcase two of my developing skills to showcase to the world.</p>	
+					<a href="">Link</a>			  
+				</div>
+
+				<div class="project-card" id="about-card2">
+					<img class="project-image" src="img/Bird1.jpg"  alt="...">
+								  
+					<p class="card-text">My Name is Brandon and welcome to my personal website! I have created this website to fulfill two personal goals: to have an ameture photography website and to have built my website from scratch. Here I will showcase two of my developing skills to showcase to the world.</p>
+					<a href="">Link</a>				  
+				</div>
+
+				<div class="project-card" id="about-card3">
+					<img class="project-image" src="img/landscape1.jpg"  alt="...">
+					
+					<p class="card-text">My Name is Brandon and welcome to my personal website! I have created this website to fulfill two personal goals: to have an ameture photography website and to have built my website from scratch. Here I will showcase two of my developing skills to showcase to the world.</p>
+					<a href="">Link</a>				  
+				</div>				
+			</div>
+		</div>
+
+		<!-- Contact Section -->
+		<div id="contact-container">
+			<h1>Contact Me</h1>
+		</div>
+	</div>
+	<!-- Optional JavaScript -->
+	<script src="js/script.js"></script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
