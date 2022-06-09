@@ -1,0 +1,50 @@
+.contact-container{
+	display: flex;
+}
+.contact-container >*{
+}
+
+.Email-Block{
+	margin-left: 3vw;
+	color: orange;
+	float: left;
+}
+#contact-title{
+	position: relative;
+	right: 3vw;
+}
+.Email-Block button{
+	max-width: 15vw;
+	max-height: 10vw;
+	overflow: hidden;
+	font-size: 2vw;
+
+}
+
+.Email-Block input{
+	min-width: 40vw;
+}
+
+.Email-Block #Ebody{
+	height: 10vw;
+	min-width: 40vw;
+}
+
+.Email-Block #Esubject, #Email{
+}
+
+.resume-container{
+	margin-left: 70%;
+}
+.resume-container button{
+	max-width: 15vw;
+	max-height: 10vw;
+	overflow: hidden;
+	font-size: 2vw;
+	position: relative;
+	right: 3vw;
+}
+#resume-title{
+	float: right;
+	margin-right: 3vw;
+}

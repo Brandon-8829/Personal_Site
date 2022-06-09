@@ -4,12 +4,14 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Page Title</title>
+	<title>Brandon Harris Website</title>
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/skills.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
@@ -19,7 +21,19 @@
 		</div>
 		<div class="media-container">
 			<div>
-				<img class="media-icon"src="img/LinkedIn-icon.png">
+				<a href="https://www.linkedin.com/in/brandon-m-harris/">
+					<img class="media-icon"src="img/LinkedIn-icon.png">
+				</a>
+			</div>
+			<div>
+				<a href="https://github.com/Brandon-8829">
+					<img class="media-icon"src="img/github.png">
+				</a>
+			</div>
+			<div>
+				<a href="download/ResumeBrandonHarris.docx" download="download/ResumeBrandonHarris.docx">
+					<img class="media-icon"src="img/resume.svg">
+				</a>
 			</div>
 		</div>
 		
@@ -40,7 +54,11 @@
 	
 	
 	<div id="welcome-text" class="text-center">
-		<h1>Brandon Harris</h1>		
+		<h1>Brandon Harris</h1>	
+		<p>Welcome to my Portfolio! I am a software developer looking for different remote opportunities, as well as opportunites in Edmonton, AB, Canada area. Being naturally curious,
+		I try to learn more about myself and how
+		I work with others. I am detailed
+		oriented and coachable. Feel free to contact me.</p>	
 	</div>
 
 	<div class="page-break">
@@ -112,7 +130,38 @@
 
 		<!-- Contact Section -->
 		<div id="contact-container">
-			<h1>Contact Me</h1>
+			
+			<div class="Email-Block">
+				<h1 id="contact-title">Contact Me</h1>
+				<form action="/action_page.php">
+				  
+				  <input type="text" id="Email" placeholder="Your Email"><br><br>
+				  <input type="text" id="Esubject" placeholder="Email Subject"><br><br>
+				  
+				  <input type="text" id="Ebody" placeholder="Email Body"><br><br>
+				  <button>Submit</button>
+				</form>
+			</div>
+			<h1 id="resume-title">Resume Download</h1>
+			<div class="resume-container">
+				
+				<div>
+					<button>Download Resume</button>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="footer-container">
+			<div class="footer-block" id="footer-links">
+				<div><a href="">LinkedIn</a></div><br>
+				<div><a href="">GitHub</a></div><br>
+				<div><a href="">Resume</a></div><br>
+			</div>
+			<div class="footer-block" id="footer-contact">
+				<p>Email: Brandonm1997.bh@gmail.com</p>
+				<p>Phone: 1 (519)-242-8323</p>
+			</div>
 		</div>
 	</div>
 	<!-- Optional JavaScript -->

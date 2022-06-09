@@ -14,22 +14,36 @@ body{
   padding: 1vw;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
   position: fixed;
   z-index: 3;
 }
 .media-container{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50%;
   margin: auto;
 }
 .media-icon{
-  width: 2vw;
-  height: 2vw;
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin-left: 3vw;
+  border-radius: 10px;
+  transition: all ease 0.3s;
 }
+.media-icon:hover{
+  background-color: #f59842 ;
+  transform: 1.02%;
+}
+
 .Menu-Button{
   margin-top: 0.1vw; 
 }
 #M-Button{
-  margin-left: auto;
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
 }
 
 .Logo img{
@@ -93,9 +107,21 @@ body{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: auto;
-  width: 50%;
+  width: 70%;
   font-family: Snell Roundhand; 
-  padding-top: 7vw;
+  font-size: 4vw;
+  padding-top: 20vw;
+}
+
+#welcome-text p{
+  background: -webkit-linear-gradient(#a87d32,#a85132);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
+  width: 70%;
+  font-size: 2vw;
+  font-family: Snell Roundhand; 
+
 }
 
 .sidenav {
