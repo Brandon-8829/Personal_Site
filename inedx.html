@@ -3,7 +3,7 @@
 <head>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 	<title>Brandon Harris Website</title>
 
 	<!-- Bootstrap CSS -->
@@ -31,7 +31,7 @@
 				</a>
 			</div>
 			<div>
-				<a href="download/ResumeBrandonHarris.docx" download="download/ResumeBrandonHarris.docx">
+				<a href="ResumeBrandonHarris.pdf" download="ResumeBrandonHarris.pdf">
 					<img class="media-icon"src="img/resume.svg">
 				</a>
 			</div>
@@ -96,6 +96,10 @@
 					<!-- <img src="css.png"> -->
 					<p>SQL</p>
 				</div>
+				<div class="skill-card">
+					<!-- <img src="css.png"> -->
+					<p>PHP</p>
+				</div>
 			</div>
 		</div>
 
@@ -104,26 +108,34 @@
 			<div id="about-inner">
 				<h1>Software Projects</h1>
 			</div>
-			<div class="project-card-container">	
+			<div class="project-card-container">
+				<div class="project-card" id="about-card3">
+					<img class="project-image" src="img/SMS.png"  alt="...">
+					
+					<p class="card-text">Student Management System: 
+						Built with HTML, CSS, JavaScript, PHP and MySQL. Form and user veriification done with PHP and MySQL. Basic CRUD capabilities that are displayed in an HTML page and styled with CSS and JavaScript.
+					</p>
+					<a href="https://github.com/Brandon-8829/Student_Managment_Webapp">Link</a>				  
+				</div>		
 				<div class="project-card" id="about-card1">
-					<img class="project-image" src="img/landscape1.jpg"  alt="...">	
+					<img class="project-image" src="img/pet.png"  alt="...">	
 								  
-					<p class="card-text">My Name is Brandon and welcome to my personal website! I have created this website to fulfill two personal goals: to have an ameture photography website and to have built my website from scratch. Here I will showcase two of my developing skills to showcase to the world.</p>	
-					<a href="">Link</a>			  
+					<p class="card-text">Pet Adoption Website: Produced a simple pet adoption website using the PetFinder API to find adoptable animals in the users area. Designed a clean user interface with HTML, CSS, JavaScript and Bootstrap that allows the user to select specific characteristics about the animal they would like to adopt. Accessed PetFinder API with JQuery and Ajax to obtain JSON data and produce animals cards to be displayed to the user with JavaScript.</p>	
+					<a href="https://github.com/Brandon-8829?tab=repositories">Link</a>			  
 				</div>
 
 				<div class="project-card" id="about-card2">
-					<img class="project-image" src="img/Bird1.jpg"  alt="...">
+					<img class="project-image" src="img/bg.png"  alt="...">
 								  
-					<p class="card-text">My Name is Brandon and welcome to my personal website! I have created this website to fulfill two personal goals: to have an ameture photography website and to have built my website from scratch. Here I will showcase two of my developing skills to showcase to the world.</p>
-					<a href="">Link</a>				  
+					<p class="card-text">Video Game: Designed and developed a 2D video game with the Unity game engine and assets with C#. Refined Unity's raycast system for more efficient physics and collision detection between game assets.Constructed AI targeting and follow mechanics to allow game assets to more effectively interact with the player.</p>
+					<a href="https://github.com/Brandon-8829/2D-Game-FinalProject">Link</a>				  
 				</div>
 
 				<div class="project-card" id="about-card3">
-					<img class="project-image" src="img/landscape1.jpg"  alt="...">
+					<img class="project-image" src="img/book.jpg"  alt="...">
 					
-					<p class="card-text">My Name is Brandon and welcome to my personal website! I have created this website to fulfill two personal goals: to have an ameture photography website and to have built my website from scratch. Here I will showcase two of my developing skills to showcase to the world.</p>
-					<a href="">Link</a>				  
+					<p class="card-text">E-Library: Utilized user interface design practices to provide a clean and easy access to the electronic library.Provided a login page for users and admins to check status of books they have/are in the library, costs, and overdue notices.Implemented a search function to reduce time and complexity of finding books in the library.</p>
+					<a href="https://github.com/Brandon-8829/Library">Link</a>				  
 				</div>				
 			</div>
 		</div>
@@ -139,14 +151,19 @@
 				  <input type="text" id="Esubject" placeholder="Email Subject"><br><br>
 				  
 				  <input type="text" id="Ebody" placeholder="Email Body"><br><br>
-				  <button>Submit</button>
+				  <form action="mail.php">
+				  	<button action="mail.php">Submit</button>
+				  </form>
+				  
 				</form>
 			</div>
 			<h1 id="resume-title">Resume Download</h1>
 			<div class="resume-container">
 				
 				<div>
-					<button>Download Resume</button>
+					<a href="ResumeBrandonHarris.pdf" download="ResumeBrandonHarris.pdf">
+						<button>Download Resume</button>
+					</a>
 				</div>
 				
 			</div>
@@ -154,9 +171,9 @@
 
 		<div class="footer-container">
 			<div class="footer-block" id="footer-links">
-				<div><a href="">LinkedIn</a></div><br>
-				<div><a href="">GitHub</a></div><br>
-				<div><a href="">Resume</a></div><br>
+				<div><a href="https://www.linkedin.com/in/brandon-m-harris/">LinkedIn</a></div><br>
+				<div><a href="https://github.com/Brandon-8829">GitHub</a></div><br>
+				<div><a href="ResumeBrandonHarris.pdf" download="ResumeBrandonHarris.pdf">Resume</a></div><br>
 			</div>
 			<div class="footer-block" id="footer-contact">
 				<p>Email: Brandonm1997.bh@gmail.com</p>
