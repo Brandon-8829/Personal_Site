@@ -1,5 +1,0 @@
-.footer-container{
-	height: 20vw;
-	width: 100%;
-	background-color: grey;
-}
