@@ -1,0 +1,170 @@
+body{
+ /* background-image: url(../img/temp.jpg); 
+  background-size: cover;
+  background-position:center center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 1024px; 
+  transition: margin-left .5s;*/
+  background-color: #2e2e2e;
+}
+#navBar{
+  width: 100%;
+  background-color: #333;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 3;
+  justify-content: center;
+}
+.media-container{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  left: 40%;
+}
+.media-icon{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin-left: 3vw;
+  border-radius: 10px;
+  transition: all ease 0.3s;
+}
+.media-icon:hover{
+  background-color: #f59842 ;
+  transform: 1.02%;
+}
+
+.Menu-Button{
+  margin-top: 0.1vw; 
+}
+#M-Button{
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+}
+
+.Logo img{
+  height: 40px;
+  width: 40px;
+  border-radius: 1010px;
+
+}
+.page-break {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card-container{
+  display: flex;
+  flex-flow: column;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  height: auto;
+  margin: -1vw 0 0 0;
+}
+.project-card-container > *{
+  margin-top: 1vw;
+}
+
+.project-card{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  overflow: auto;
+  height: 15vw; 
+  width: 100%   
+  z-index: 1;
+  background-color: #262626; 
+  background-origin: 0.5vw;
+  transition: all ease 0.3s;
+  border-radius: 10px;
+}
+.project-card:hover{
+  box-shadow: 20px 20px 50px 10px #f59842 inset;
+  transform: scale(1.02);
+}
+.project-card-container p{
+  font-size: 2vw;
+  z-index: 2vw;
+  color: white;
+}
+.project-card a{
+  position: relative;
+  left: -0.5vw;
+}
+.project-image{
+  min-height: 100%;
+  min-width: 25%;
+  border-radius: 0.5vw;
+}
+
+#welcome-text h1{
+  background: -webkit-linear-gradient(#a87d32,#a85132);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
+  width: 70%;
+  font-family: Snell Roundhand; 
+  font-size: 4vw;
+  padding-top: 20vw;
+}
+
+#welcome-text p{
+  background: -webkit-linear-gradient(#a87d32,#a85132);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: auto;
+  width: 70%;
+  font-size: 2vw;
+  font-family: Snell Roundhand; 
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 10px;
+}
+
+.sidenav a, p{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f59842;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+   nav ul li {
+        position: relative;
+    }
+
+    nav ul ul a{
+        position: absolute;
+        width: 100%;
+    }
